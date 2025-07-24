@@ -1,7 +1,7 @@
-/* * {
+* {
     margin: none;
     padding: none;
-} */
+}
 
 .d-flex {
     display: flex;
@@ -13,9 +13,12 @@
 }
 
 .grey-text {
-    color: 8987A1;
+    color: #8987A1;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* nav section */
 .navbar {
@@ -26,11 +29,20 @@
     margin-bottom: 50px;
 }
 
-.navbar li, a {
+.navbar {
     list-style: none;
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
+}
+
+.list-text {
+    text-decoration: none;
+    color: black;
+}
+.nav-ul {
+    list-style: none;
+    color: black;
 }
 
 .navbar ul{
@@ -72,4 +84,58 @@
 .banner-image {
     height: 355px;
     width: 570px;
+}
+
+
+/* out plants section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.our-plants {
+    margin: 80px auto;
+    text-align: center;
+}
+
+.plant-card-text {
+    width: 888px;
+    margin: 0 auto;
+}
+
+.card-heading{
+    margin: 0;
+    font-size: 3rem;
+}
+.card-text {
+    font-size: 1.2rem;
+}
+
+.plant-cards {
+    margin: 60px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-price {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    font-weight: 600;
+}
+.card {
+    width: 270px;
+    height: 485px;
+}
+
+.card-btn {
+    border: none;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 15px;
+    background-color: #E95A08;
+}
+.btn-text {
+    color: white;
+    font-weight: 600;
+
 }
