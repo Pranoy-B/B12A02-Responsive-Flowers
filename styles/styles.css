@@ -16,8 +16,24 @@
     color: #8987A1;
 }
 
+.section-heading{
+    margin: 0;
+    font-size: 3rem;
+    line-height: 6.5rem;
+}
+
+.section-text {
+    margin: 0;
+    text-wrap: wrap;
+    font-size: 1.4rem;
+    word-spacing: 6px;
+}
+
 a {
     text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
 }
 
 /* nav section */
@@ -74,12 +90,6 @@ a {
     line-height: 1.4;
    
 }
-.b-text {
-    margin: 0;
-    text-wrap: wrap;
-    font-size: 1.4rem;
-    word-spacing: 6px;    
-}
 
 .banner-image {
     height: 355px;
@@ -93,7 +103,7 @@ main {
     margin: 0 auto;
 }
 .our-plants {
-    margin: 80px auto;
+    margin: 120px auto;
     text-align: center;
 }
 
@@ -102,10 +112,7 @@ main {
     margin: 0 auto;
 }
 
-.card-heading{
-    margin: 0;
-    font-size: 3rem;
-}
+
 .card-text {
     font-size: 1.2rem;
 }
@@ -138,4 +145,75 @@ main {
     color: white;
     font-weight: 600;
 
+}
+
+
+/* latest deals section */
+
+.latest-deals-text {
+    max-width: 888px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.latest-deals-card {
+    height: 424px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+.ld-card-img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/deal-bloom.png);
+    width: 367px;
+    height: 200px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.ld-card-img2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/deal-ana.png);
+    width: 367px;
+    height: 197px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.ld-card-img3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/deal-zabo.png);
+    width: 748px;
+    height: 423px;
+    border-radius: 10px;
+    padding: 0;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.bloom-plant {
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+}
+
+.zabo-plant {
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
 }
