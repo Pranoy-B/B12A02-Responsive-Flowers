@@ -453,11 +453,28 @@ main {
 
         }
 
+        .mail{
+            height: 400px;
+        }
+        .news-ltr-heading {
+            font-size: 2rem;
+        }
+        .news-ltr-input {
+            width: 300px;
+            margin-left: 200px;
+        }
+        .news-ltr-btn {
+            width: 120px;
+        }
 
+        .footer {
+            flex-direction: column;
+            padding-left: 20px;
+        }
 
-
-
-
+        .social {
+            padding-bottom: 50px;
+        }
 
 
 
