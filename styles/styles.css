@@ -1,6 +1,6 @@
 * {
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .d-flex {
@@ -216,4 +216,44 @@ main {
     color: white;
     text-decoration-line: underline;
     text-underline-offset: 10px;
+}
+
+/* mail section */
+
+.mail {
+    background-image: url(../assets/news-letter-bg.png);
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 80px 0;
+    position: relative;
+    height: 533px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.news-letter {
+    height: 50px;
+    width: 830px;
+    margin: 0 auto;
+    
+}    
+
+.news-ltr-heading {
+    font-size: 3rem;
+    color: white;
+    margin: 20px auto;
+    vertical-align: center;
+    text-align: center;
+
+}
+
+.news-ltr-input {
+    width: calc(100% - 186px); 
+}
+
+.news-ltr-btn {
+    width: calc(100% - 644px);
 }
