@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1140px;
     height: 100%;
     margin: 0 auto;
+    margin-top: 120px;
     justify-content: end;
     align-items: end;
 }
@@ -363,8 +364,13 @@ main {
     height: 286px;
     top: -20%;
     right: 45%;
-    
+    -webkit-transition: -webkit-transform 1s;
 }
+
+    .badge:hover{
+        -webkit-transform: rotate(360deg) translateZ(0);
+    }
+
 .badge-img {
     height: 286px;
     width: 286px;
